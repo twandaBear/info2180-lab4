@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Heroz</title>
     <link rel="stylesheet" href="styles.css" />
-    <title>Avengers</title>
   </head>
   <body>
-    <h1>Avengers Character Search</h1>
-    <button>Search</button>
+    <div class="hero-head"><h1>Avengers Character Search</h1></div>
+
+    <section class="data">
+      <p>Search by Full Name or Alias</p>
+      <div>
+        <input type="text" placeholder="eg. Captain America or Steve Rogers" />
+        <button>Search</button>
+      </div>
+      <!-- Results -->
+
+      <div id="result"></div>
+    </section>
+
     <script src="app.js"></script>
   </body>
 </html>

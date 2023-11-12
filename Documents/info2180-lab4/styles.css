@@ -1,0 +1,62 @@
+
+
+body{
+    background-color: #f0f0f0;
+}
+
+.hero-head{
+    color: white;
+    background-color: #4981a8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+.data{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 0px 200px;
+}
+
+
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 90px;
+ 
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+input{
+
+    
+    height: 40px;
+    width: 75%;
+ 
+}
+
+
+
+
+.not-found-msg{
+
+    color: red ;
+    font-size: 20px;
+    font-weight: 600;
+
+}
